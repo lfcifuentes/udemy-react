@@ -8,11 +8,11 @@ export const Form = () => {
 
     const submitForm = (e) => {
         e.preventDefault();
-        if (fruit.trim() == '') {
+        if (fruit.trim() === '') {
             console.log("fruit empty");
             return false;
         }
-        if (description.trim() == '') {
+        if (description.trim() === '') {
             console.log("description empty");
             return false;
         }
