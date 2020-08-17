@@ -7,10 +7,10 @@ const Count = () => {
     return (
         <div>
             { count } <br />
-            <button onClick={ ()=> { setCount( count + 1 ) } }>
+            <button className="btn btn-primary mr-3" onClick={ ()=> { setCount( count + 1 ) } }>
                 Aumentar
             </button>
-            <button onClick={ () => { setCount( count - 1 ) } }>
+            <button className="btn btn-warning" onClick={ () => { setCount( count - 1 ) } }>
                 Disminuir
             </button>
         </div>

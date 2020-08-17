@@ -20,7 +20,7 @@ const States = () => {
     return (
         <>
             <h3>{ text }</h3>
-            <button onClick={ () => { changeText() } }>
+            <button className="btn btn-success" onClick={ () => { changeText() } }>
                 Change State
             </button>
         </>

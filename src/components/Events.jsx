@@ -7,7 +7,7 @@ const Events = () => {
     return (
         <>  
             <h3>Events</h3>
-            <button onClick={ eventClick }>
+            <button className="btn btn-dark" onClick={ eventClick }>
                 Click
             </button> 
         </>

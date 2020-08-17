@@ -15,7 +15,7 @@ const CountList = () => {
 
     return (
         <div>
-            <button onClick={ addItem }>
+            <button className="btn btn-info mt-3" onClick={ addItem }>
                 Añadir item
             </button>
             <ul>

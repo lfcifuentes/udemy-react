@@ -6,10 +6,11 @@ import Events from './components/Events';
 import States from './components/States';
 import Count from './components/Count';
 import CountList from './components/CountList';
+import Form from './components/Form';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mt-3">
       <h1>Hola mundo</h1>
       <Parrafo />
       <Variables />
@@ -17,6 +18,7 @@ function App() {
       <States />
       <Count />
       <CountList />
+      <Form />
     </div>
   );
 }
